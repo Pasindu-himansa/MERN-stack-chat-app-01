@@ -6,6 +6,9 @@ import jwt from "jsonwebtoken";
 export const protectRoute = async (req, res, next) => {
   try {
     const token = req.headers.token;
+    if (!token) {
+      console.log("Missing JWT on:", req.method, req.originalUrl);
+    }
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 

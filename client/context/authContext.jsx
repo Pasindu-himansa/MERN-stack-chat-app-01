@@ -4,9 +4,9 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { useEffect } from "react";
 import { io } from "socket.io-client";
-import { connect } from "mongoose";
+//import { connect } from "mongoose";
 
-const backendurl = import.meta.env.VITE_BACKEND_URL;
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 axios.defaults.baseURL = backendUrl;
 
 export const AuthContext = createContext();
@@ -21,7 +21,9 @@ export const AuthProvider = ({ children }) => {
 
   const checkAuth = async () => {
     try {
-      const { data } = await axios.get("/api/authcheck");
+      const { data } = await axios.get("/api/auth/check", {
+        headers: { token: localStorage.getItem("token") },
+      });
       if (data.success) {
         setAuthUser(data.user);
         connectSocket(data.user);
@@ -56,23 +58,35 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem("token");
     setToken(null);
     setAuthUser(null);
-    setOnlineUsers([]);
+    setOnlineUser([]);
     axios.defaults.headers.common["token"] = null;
     toast.success("Logged out successfully");
-    socket.disconnect();
+    socket?.disconnect();
   };
+  //Update profile function to handle user profile updates
 
+  const updateProfile = async (body) => {
+    try {
+      const { data } = await axios.put("/api/auth/update-profile", body);
+      if (data.success) {
+        setAuthUser(data.user);
+        toast.success("Profile updated successfully");
+      }
+    } catch (error) {
+      toast.error(error.message);
+    }
+  };
   // Connect socket  function to  hadle socket connection and  online users updates
   const connectSocket = (userData) => {
     if (!userData || socket?.connected) return;
-    const newSocket = io(backendurl, {
-      userId: ussrData._id,
+    const newSocket = io(backendUrl, {
+      query: { userId: userData._id },
     });
     newSocket.connect();
     setSocket(newSocket);
 
-    newSocket.on("getOnlineUsers", () => {
-      setOnlineUsers(userIds);
+    newSocket.on("getOnlineUsers", (userIds) => {
+      setOnlineUser(userIds);
     });
   };
 
@@ -88,6 +102,9 @@ export const AuthProvider = ({ children }) => {
     authUser,
     onlineUser,
     socket,
+    login,
+    logout,
+    updateProfile,
   };
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
