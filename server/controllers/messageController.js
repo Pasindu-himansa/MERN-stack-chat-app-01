@@ -31,7 +31,7 @@ export const getUsersForSidebar = async (req, res) => {
     res.json({ success: true, users: filteredUsers, unseenMessages });
   } catch (error) {
     console.log(error.message);
-    res.json({ success: false, error: message });
+    res.json({ success: false, error: error.message });
   }
 };
 
@@ -42,7 +42,7 @@ export const getMessages = async (req, res) => {
     const { id: selectedUserId } = req.params;
     const myId = req.user._id;
 
-    const message = await Message.find({
+    const messages = await Message.find({
       $or: [
         { senderId: myId, recieverId: selectedUserId },
         { senderId: selectedUserId, recieverId: myId },
@@ -56,7 +56,7 @@ export const getMessages = async (req, res) => {
     res.json({ success: true, messages });
   } catch (error) {
     console.log(error.message);
-    res.json({ success: false, error: message });
+    res.json({ success: false, error: error.message });
   }
 };
 
@@ -69,7 +69,7 @@ export const markMessageAsSeen = async (req, res) => {
     res.json({ success: true });
   } catch (error) {
     console.log(error.message);
-    res.json({ success: false, error: message });
+    res.json({ success: false, error: error.message });
   }
 };
 
@@ -103,6 +103,6 @@ export const sendMessage = async (req, res) => {
     res.json({ success: true, newMessage });
   } catch (error) {
     console.log(error.message);
-    res.json({ success: false, error: message });
+    res.json({ success: false, error: error.message });
   }
 };
