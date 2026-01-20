@@ -1,48 +1,88 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1920" height="1080" fill="black"/>
-<g opacity="0.72">
-<path d="M1155.5 44C911.505 44 713 242.505 713 486.5C713 730.495 911.505 929 1155.5 929V680.869C1048.39 680.869 961.131 593.61 961.131 486.5C961.131 379.39 1048.39 292.131 1155.5 292.131C1262.61 292.131 1349.87 379.39 1349.87 486.5C1349.87 555.15 1405.29 610.565 1473.93 610.565C1542.58 610.565 1598 555.15 1598 486.5C1598 242.505 1399.5 44 1155.5 44Z" fill="url(#paint0_radial_8526_1205)"/>
-<path d="M1155.5 44C911.505 44 713 242.505 713 486.5C713 730.495 911.505 929 1155.5 929V680.869C1048.39 680.869 961.131 593.61 961.131 486.5C961.131 379.39 1048.39 292.131 1155.5 292.131C1262.61 292.131 1349.87 379.39 1349.87 486.5C1349.87 555.15 1405.29 610.565 1473.93 610.565C1542.58 610.565 1598 555.15 1598 486.5C1598 242.505 1399.5 44 1155.5 44Z" fill="#1F2E7E" fill-opacity="0.7"/>
-</g>
-<mask id="mask0_8526_1205" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="332" y="345" width="660" height="589">
-<path d="M992 639.5C992 477.112 843.963 345 662 345C480.037 345 332 477.112 332 639.5H517.047C517.047 568.214 582.121 510.14 662 510.14C741.879 510.14 806.953 568.214 806.953 639.5C806.953 710.786 741.879 768.86 662 768.86C610.804 768.86 569.477 805.741 569.477 851.43C569.477 897.119 610.804 934 662 934C843.963 934 992 801.888 992 639.5Z" fill="url(#paint1_radial_8526_1205)"/>
-</mask>
-<g mask="url(#mask0_8526_1205)">
-<g filter="url(#filter0_ii_8526_1205)">
-<path d="M992 639.5C992 477.112 843.963 345 662 345C480.037 345 332 477.112 332 639.5H517.047C517.047 568.214 582.121 510.14 662 510.14C741.879 510.14 806.953 568.214 806.953 639.5C806.953 710.786 741.879 768.86 662 768.86C610.804 768.86 569.477 805.741 569.477 851.43C569.477 897.119 610.804 934 662 934C843.963 934 992 801.888 992 639.5Z" fill="url(#paint2_radial_8526_1205)"/>
-<path d="M992 639.5C992 477.112 843.963 345 662 345C480.037 345 332 477.112 332 639.5H517.047C517.047 568.214 582.121 510.14 662 510.14C741.879 510.14 806.953 568.214 806.953 639.5C806.953 710.786 741.879 768.86 662 768.86C610.804 768.86 569.477 805.741 569.477 851.43C569.477 897.119 610.804 934 662 934C843.963 934 992 801.888 992 639.5Z" fill="#1F2E7E" fill-opacity="0.7"/>
-</g>
-</g>
-<defs>
-<filter id="filter0_ii_8526_1205" x="313.648" y="320.37" width="704.702" height="645.745" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="-18.3516" dy="32.1153"/>
-<feGaussianBlur stdDeviation="38.9971"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.87 0"/>
-<feBlend mode="lighten" in2="shape" result="effect1_innerShadow_8526_1205"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="26.35" dy="-24.63"/>
-<feGaussianBlur stdDeviation="15.3705"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.168627 0 0 0 0 0.180392 0 0 0 0 0.239216 0 0 0 0.9 0"/>
-<feBlend mode="multiply" in2="effect1_innerShadow_8526_1205" result="effect2_innerShadow_8526_1205"/>
-</filter>
-<radialGradient id="paint0_radial_8526_1205" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1012.91 -28.2302) rotate(87.3472) scale(335.339 871.795)">
-<stop stop-color="#FF5959"/>
-<stop offset="0.75" stop-color="#9645FF"/>
-<stop offset="1" stop-color="#7353FF"/>
-</radialGradient>
-<radialGradient id="paint1_radial_8526_1205" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284.953 541.462) rotate(18.6255) scale(533.351 202.607)">
-<stop offset="0.489192" stop-opacity="0"/>
-<stop offset="1"/>
-</radialGradient>
-<radialGradient id="paint2_radial_8526_1205" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(555.66 296.928) rotate(87.028) scale(223.241 649.974)">
-<stop stop-color="#FF5959"/>
-<stop offset="0.75" stop-color="#9645FF"/>
-<stop offset="1" stop-color="#7353FF"/>
-</radialGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#0a0a18"/>
+      <stop offset="60%" stop-color="#04040b"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <linearGradient id="petal" x1="10%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#b8bbff"/>
+      <stop offset="40%" stop-color="#6a6fe0"/>
+      <stop offset="75%" stop-color="#3a3fad"/>
+      <stop offset="100%" stop-color="#24256f"/>
+    </linearGradient>
+
+    <linearGradient id="deep" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#8a8df5"/>
+      <stop offset="60%" stop-color="#34379b"/>
+      <stop offset="100%" stop-color="#1f205f"/>
+    </linearGradient>
+
+    <radialGradient id="gloss" cx="35%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#cfd0ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="170%">
+      <feOffset dy="18" result="o"/>
+      <feGaussianBlur in="o" stdDeviation="24" result="s"/>
+      <feColorMatrix in="s" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.45 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Ambient arcs -->
+  <g opacity="0.2">
+    <path d="M220 760 C520 560, 820 560, 1120 760" fill="none" stroke="#6a6fe0" stroke-width="26" stroke-linecap="round"/>
+    <path d="M900 180 C1120 260, 1320 360, 1520 560" fill="none" stroke="#3a3fad" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <!-- Lotus -->
+  <g filter="url(#shadow)">
+    <!-- Back outer petals -->
+    <path d="M300 780 C240 650 300 520 460 430 C620 340 820 330 960 420 C780 520 640 650 560 840 C470 840 380 820 300 780 Z"
+          fill="url(#deep)" opacity="0.8"/>
+    <path d="M1620 780 C1680 650 1620 520 1460 430 C1300 340 1100 330 960 420 C1140 520 1280 650 1360 840 C1450 840 1540 820 1620 780 Z"
+          fill="url(#deep)" opacity="0.8"/>
+
+    <!-- Mid petals -->
+    <path d="M520 860 C440 740 500 600 640 520 C780 440 900 470 960 520 C820 580 740 690 720 880 C650 890 580 885 520 860 Z"
+          fill="url(#petal)" opacity="0.92"/>
+    <path d="M1400 860 C1480 740 1420 600 1280 520 C1140 440 1020 470 960 520 C1100 580 1180 690 1200 880 C1270 890 1340 885 1400 860 Z"
+          fill="url(#petal)" opacity="0.92"/>
+
+    <!-- Inner petals -->
+    <path d="M820 760 C780 650 820 520 900 430 C930 395 950 380 960 360 C970 380 990 395 1020 430 C1100 520 1140 650 1100 760 C1060 810 1010 840 960 860 C910 840 860 810 820 760 Z"
+          fill="url(#petal)" filter="url(#glow)"/>
+    <path d="M860 600 C900 520 920 480 960 440 C1000 480 1020 520 1060 600 C1010 560 910 560 860 600 Z"
+          fill="url(#gloss)"/>
+
+    <!-- Center bud -->
+    <path d="M960 300 C915 380 900 470 910 560 C920 650 940 720 960 770 C980 720 1000 650 1010 560 C1020 470 1005 380 960 300 Z"
+          fill="url(#petal)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Subtle center glow -->
+  <circle cx="960" cy="720" r="140" fill="#6a6fe0" opacity="0.12" filter="url(#glow)"/>
 </svg>
