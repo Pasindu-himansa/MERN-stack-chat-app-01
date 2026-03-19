@@ -11,7 +11,7 @@ import assets from "./assets/assets.js";
 const App = () => {
   const { authUser } = useContext(AuthContext);
   return (
-    <div className={assets.bgImage}>
+    <div className={`bg-[url('${assets.bgImage}')]`}>
       <Toaster />
       <Routes>
         <Route
