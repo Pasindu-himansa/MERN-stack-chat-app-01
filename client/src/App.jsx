@@ -6,11 +6,12 @@ import ProfilePage from "./pages/ProfilePage";
 import { Toaster } from "react-hot-toast";
 import { useContext } from "react";
 import { AuthContext } from "../context/authContext";
+import assets from "./assets/assets";
 
 const App = () => {
   const { authUser } = useContext(AuthContext);
   return (
-    <div className="bg-[url('/bgImage.svg')] bg-contain">
+    <div className={assets.bgImage}>
       <Toaster />
       <Routes>
         <Route
